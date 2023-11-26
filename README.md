@@ -117,6 +117,36 @@
 
 40. **Can we run a Java application without implementing the OOPs concept?**
     - Technically, yes, but it goes against the principles of Java, which is fundamentally an object-oriented language.
+   
+41. **What is the SOLID principle in OOP?**
+   - SOLID promotes five design principles for robust and maintainable code.
+
+42. **Difference between composition and inheritance?**
+   - Composition creates relationships; inheritance builds on existing classes.
+
+43. **What is an Abstract Data Type (ADT)?**
+   - ADT is a high-level description of data operations, focusing on functionality.
+
+44. **How does encapsulation contribute to data hiding?**
+   - Encapsulation hides object implementation, promoting data security.
+
+45. **What is the diamond problem in multiple inheritance?**
+   - Diamond problem: ambiguity when inheriting from two classes with a common ancestor.
+
+46. **Role of 'this' keyword in OOP?**
+   - 'this' refers to the current instance, resolving variable conflicts.
+
+47. **Method overloading vs. overriding?**
+   - Overloading: same name, different parameters; Overriding: subclass provides specific implementation.
+
+48. **Importance of 'super' keyword?**
+   - 'super' calls superclass methods, often used in overridden methods.
+
+49. **Abstract classes vs. interfaces?**
+   - Abstract classes have abstract and concrete methods; interfaces declare methods for implementation.
+
+50. **How does OOP relate to design patterns?**
+    - OOP principles underpin design patterns for reusable, scalable solutions.
 
 1. **Define network**
    - **Network:** A collection of interconnected devices or systems sharing resources and information.
