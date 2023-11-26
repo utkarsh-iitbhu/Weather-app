@@ -1,3 +1,101 @@
+1. **What is DBMS? Mention advantages:**
+   - **DBMS (Database Management System):** Software managing databases.
+   - **Advantages:** Data integrity, security, independence, efficient data retrieval.
+
+2. **What is a Database?**
+   - A structured collection of data for storage and retrieval.
+
+3. **What is a database system?**
+   - A combination of a database and its management software.
+
+4. **What is RDBMS? Properties:**
+   - **RDBMS (Relational Database Management System):** Manages data in tables.
+   - **Properties:** Tables, primary keys, relationships.
+
+5. **Types of database languages:**
+   - **DDL (Data Definition Language):** Defines database structure.
+   - **DML (Data Manipulation Language):** Manipulates data stored in the database.
+
+6. **ACID properties (VVVVV IMP):**
+   - **ACID:** Atomicity, Consistency, Isolation, Durability.
+
+7. **Difference between vertical and horizontal scaling:**
+   - **Vertical Scaling:** Increase hardware power.
+   - **Horizontal Scaling:** Add more machines.
+
+8. **What is sharding:**
+   - Dividing a database into smaller parts for load distribution.
+
+9. **Keys in DBMS:**
+   - **Primary Key:** Uniquely identifies a record.
+   - **Foreign Key:** Links to a primary key in another table.
+
+10. **Types of relationship:**
+   - **One-to-One (1:1), One-to-Many (1:N), Many-to-Many (M:N).**
+
+11. **Data abstraction in DBMS, three levels of it:**
+   - **Data Abstraction:** Simplifying complex systems.
+   - **Levels:** Physical, Logical, View.
+
+12. **Indexing in DBMS:**
+   - **Indexing:** Speeds up data retrieval.
+   - **Types:** B-Tree, Hash, Bitmap.
+
+13. **What is DDL (Data Definition Language):**
+   - **DDL:** Defines and manages database structures.
+   - **Commands:** CREATE, ALTER, DROP.
+
+14. **What is DML (Data Manipulation Language):**
+   - **DML:** Manipulates data in the database.
+   - **Commands:** SELECT, INSERT, UPDATE, DELETE.
+
+15. **What is normalization? Types of them:**
+   - **Normalization:** Reducing data redundancy.
+   - **Types:** 1NF to 5NF, BCNF.
+
+16. **What is denormalization?**
+   - **Denormalization:** Introducing redundancy for simplicity.
+
+17. **What is functional dependency?**
+   - **Functional Dependency:** A relationship between attributes.
+
+18. **E-R Model:**
+   - **E-R Model:** Represents entities, relationships, attributes.
+
+19. **Conflict Serializability in DBMS:**
+   - **Conflict Serializability:** Ensures equivalent results for concurrent transactions.
+
+20. **Explain Normal forms in DBMS:**
+   - **Normal Forms:** Levels of data normalization.
+   - **1NF to 5NF, BCNF.**
+
+21. **What is CCP? (Concurrency Control Protocols):**
+   - **CCP:** Techniques for managing concurrent access.
+
+22. **Entity, Entity Type, Entity Set, Weak Entity Set:**
+   - **Entity:** Real-world object.
+   - **Entity Type:** Collection of similar entities.
+   - **Entity Set:** All entities of a type.
+   - **Weak Entity Set:** Lacks a primary key.
+
+23. **What are SQL commands? Types of them:**
+   - **SQL Commands:** Instructions for database interaction.
+   - **Types:** DDL, DML, DCL.
+
+24. **Nested Queries in SQL:**
+   - **Nested Queries:** Queries embedded within another query.
+
+25. **What is JOIN? Explain types of JOINs:**
+   - **JOIN:** Combines rows from tables.
+   - **Types:** INNER, LEFT (OUTER), RIGHT (OUTER), FULL (OUTER).
+
+26. **Inner and Outer Join:**
+   - **Inner Join:** Returns matched rows from both tables.
+   - **Outer Join:** Returns all rows with or without matches.
+
+
+
+
 Title: Laser Technology in Defense and Warfare: Illuminating the Battlefield
 
 **Introduction**
