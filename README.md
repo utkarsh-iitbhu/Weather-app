@@ -1,3 +1,122 @@
+1. **What is the main purpose of an operating system? Discuss different types?**
+   - **Main Purpose:** Manage computer hardware and provide services to applications.
+   - **Types:** Single-user, Multi-user, Multi-tasking, Multi-processing.
+
+2. **What is a socket, kernel and monolithic kernel?**
+   - **Socket:** Endpoint for sending or receiving data across a computer network.
+   - **Kernel:** Core of an operating system managing hardware resources.
+   - **Monolithic Kernel:** Single, large program handling all OS functionality.
+
+3. **Difference between process and program and thread? Different types of process.**
+   - **Process:** Running instance of a program. 
+   - **Program:** Set of instructions stored in memory.
+   - **Thread:** Smallest unit of execution within a process.
+   - **Types of Process:** 
+      1. User Process
+      2. System Process
+
+4. **Define virtual memory, thrashing, threads.**
+   - **Virtual Memory:** Uses disk space as an extension of RAM.
+   - **Thrashing:** Excessive swapping, degrading system performance.
+   - **Threads:** Lightweight processes within a process.
+
+5. **What is RAID? Different types.**
+   - **RAID (Redundant Array of Independent Disks):** Storage technology combining multiple disks for performance and fault tolerance.
+   - **Types:** 
+      1. RAID 0 (Striping)
+      2. RAID 1 (Mirroring)
+      3. RAID 5 (Striping with Parity)
+      4. RAID 10 (Combination of Mirroring and Striping)
+
+6. **What is a deadlock? Different conditions to achieve a deadlock.**
+   - **Deadlock:** Situation where two or more processes are unable to proceed due to circular waiting.
+   - **Conditions:** Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.
+
+7. **What is fragmentation? Types of fragmentation.**
+   - **Fragmentation:** Wastage of memory space.
+   - **Types:** 
+      1. External Fragmentation
+      2. Internal Fragmentation
+
+8. **What is spooling?**
+   - **Spooling:** Simultaneous peripheral operation online. A system function that puts jobs in a buffer to be retrieved by a device when ready.
+
+9. **What is semaphore and mutex (Differences might be asked)? Define Binary semaphore.**
+   - **Semaphore:** A synchronization object controlling access to resources.
+   - **Mutex (Mutual Exclusion):** A type of semaphore limiting access to one process.
+   - **Binary Semaphore:** A semaphore with only two states, 0 and 1.
+
+10. **Belady’s Anomaly**
+    - An anomaly in page replacement algorithms where increasing the number of page frames may result in more page faults.
+
+11. **Starving and Aging in OS**
+    - **Starving:** A process is unable to gain access to resources it needs, leading to indefinite waiting.
+    - **Aging:** A technique to prevent starvation by gradually increasing the priority of waiting processes.
+
+12. **Why does trashing occur?**
+    - Trashing occurs when the system is overcommitted, and there is excessive paging, leading to a decrease in overall system performance.
+
+13. **What is paging and why do we need it?**
+    - **Paging:** Memory management scheme that eliminates the need for contiguous allocation of physical memory.
+    - **Need:** Allows for efficient use of memory, easy relocation, and greater flexibility.
+
+14. **Demand Paging, Segmentation**
+    - **Demand Paging:** Loads pages into memory only when needed.
+    - **Segmentation:** Memory management scheme that supports variable-sized partitions.
+
+15. **Real-Time Operating System, types of RTOS.**
+    - **Real-Time Operating System (RTOS):** OS designed for real-time applications.
+    - **Types:** 
+      1. Hard Real-Time OS
+      2. Soft Real-Time OS
+
+16. **Difference between main memory and secondary memory.**
+    - **Main Memory (RAM):** Volatile, fast, temporary storage.
+    - **Secondary Memory (Hard Disk):** Non-volatile, slow, permanent storage.
+
+17. **Dynamic Binding**
+    - **Dynamic Binding:** The process of linking function calls to code at runtime instead of compile time.
+
+18. **FCFS Scheduling**
+    - **FCFS (First-Come, First-Served) Scheduling:** Processes are executed in the order they arrive.
+
+19. **SJF Scheduling**
+    - **SJF (Shortest Job First) Scheduling:** Schedules the shortest job first.
+
+20. **SRTF Scheduling**
+    - **SRTF (Shortest Remaining Time First) Scheduling:** Preemptive version of SJF.
+
+21. **LRTF Scheduling**
+    - **LRTF (Longest Remaining Time First) Scheduling:** Schedules the longest job first.
+
+22. **Priority Scheduling**
+    - **Priority Scheduling:** Assigns priorities to processes.
+
+23. **Round Robin Scheduling**
+    - **Round Robin Scheduling:** Allocates a fixed time unit per process.
+
+24
+
+. **Producer Consumer Problem**
+    - **Producer Consumer Problem:** A synchronization problem where a producer produces items in a buffer, and a consumer consumes them.
+
+25. **Banker’s Algorithm**
+    - **Banker’s Algorithm:** A deadlock avoidance algorithm ensuring that resources are allocated safely.
+
+26. **Explain Cache**
+    - **Cache:** A small-sized type of volatile computer memory that provides high-speed data access.
+
+27. **Diff between direct mapping and associative mapping**
+    - **Direct Mapping:** Each block of main memory maps to exactly one cache line.
+    - **Associative Mapping:** A block of main memory can map to any cache line.
+
+28. **Diff between multitasking and multiprocessing**
+    - **Multitasking:** Allows multiple tasks to share a common resource.
+    - **Multiprocessing:** Uses multiple processors for concurrent execution of multiple tasks.
+
+
+
+
 1. **What is DBMS? Mention advantages:**
    - **DBMS (Database Management System):** Software managing databases.
    - **Advantages:** Data integrity, security, independence, efficient data retrieval.
