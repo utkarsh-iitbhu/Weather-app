@@ -1,3 +1,123 @@
+1. **What is meant by the term OOPs?**
+   - Object-Oriented Programming (OOPs) is a programming paradigm that uses objects to structure code.
+
+2. **What is the need for OOPs?**
+   - OOPs provides a modular and efficient way to organize and manage code, promoting reusability and scalability.
+
+3. **What are some major Object Oriented Programming languages?**
+   - Major OOP languages include Java, C++, Python, and C#.
+
+4. **What are some other programming paradigms other than OOPs?**
+   - Other programming paradigms include Procedural Programming and Functional Programming.
+
+5. **What is meant by Structured Programming?**
+   - Structured Programming uses structured control flow constructs for clearer code organization.
+
+6. **What are the main features of OOPs?**
+   - Main features of OOPs include Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+7. **What are some advantages of using OOPs?**
+   - Advantages of OOPs include code reusability, modularity, and ease of maintenance.
+
+8. **Why is OOPs so popular?**
+   - OOPs is popular for providing a natural way to model and organize real-world entities, making code more intuitive and scalable.
+
+9. **What is a class?**
+   - A class is a blueprint for creating objects in OOPs, defining their properties and behaviors.
+
+10. **What is an object?**
+    - An object is an instance of a class, representing a real-world entity with attributes and methods.
+
+11. **What is encapsulation?**
+    - Encapsulation is the bundling of data and methods that operate on the data within a single unit, i.e., a class.
+
+12. **What is Polymorphism?**
+    - Polymorphism allows objects of different types to be treated as objects of a common type, enabling code flexibility.
+
+13. **What is Compile time Polymorphism and how is it different from Runtime Polymorphism?**
+    - Compile-time Polymorphism is achieved through function overloading, resolved at compile time, while Runtime Polymorphism uses function overriding, resolved at runtime.
+
+14. **How does C++ support Polymorphism?**
+    - C++ supports polymorphism through function overloading and overriding, along with virtual functions and pointers.
+
+15. **What is meant by Inheritance?**
+    - Inheritance is a mechanism in OOPs that allows a class (subclass) to inherit properties and behaviors from another class (superclass).
+
+16. **What is Abstraction?**
+    - Abstraction is the process of simplifying complex systems by modeling classes at the appropriate level of detail.
+
+17. **How much memory does a class occupy?**
+    - The memory occupied by a class depends on its data members, methods, and any overhead from virtual functions or inheritance.
+
+18. **Is it always necessary to create objects from class?**
+    - No, it's not always necessary to create objects. Sometimes classes are used as blueprints without creating objects.
+
+19. **What is a constructor?**
+    - A constructor is a special method in a class used to initialize its objects.
+
+20. **What are the various types of constructors in C++?**
+    - Types of constructors in C++ include Default constructor, Parameterized constructor, and Copy constructor.
+
+21. **What is a copy constructor?**
+    - A copy constructor creates a new object as a copy of an existing object.
+
+22. **What is a destructor?**
+    - A destructor is a special method that is called when an object goes out of scope or is explicitly deleted.
+
+23. **Are class and structure the same? If not, what's the difference between a class and a structure?**
+    - In C++, the only difference between a class and a structure is the default access specifier.
+
+24. **Explain Inheritance with an example?**
+    - Inheritance example: A "Car" class inheriting properties from a "Vehicle" class.
+
+25. **Are there any limitations of Inheritance?**
+    - Inheritance can lead to a complex hierarchy, and excessive use may violate encapsulation.
+
+26. **What are the various types of inheritance?**
+    - Various types of inheritance include Single Inheritance, Multiple Inheritance, Multilevel Inheritance, Hierarchical Inheritance.
+
+27. **What is a subclass?**
+    - A subclass is a class that inherits properties and behaviors from another class (superclass).
+
+28. **Define a superclass?**
+    - A superclass is a class that is inherited from, providing properties and behaviors to one or more subclasses.
+
+29. **What is an interface?**
+    - An interface in OOPs defines a contract of methods that a class implementing the interface must provide.
+
+30. **What is meant by static polymorphism?**
+    - Static polymorphism is achieved through function overloading and is resolved at compile time.
+
+31. **What is meant by dynamic polymorphism?**
+    - Dynamic polymorphism is achieved through function overriding and is resolved at runtime.
+
+32. **What is the difference between overloading and overriding?**
+    - Overloading involves multiple methods with the same name but different parameters, while overriding involves redefining a method in a subclass with the same signature as in the superclass.
+
+33. **How is data abstraction accomplished?**
+    - Data abstraction is accomplished through encapsulation and providing a simplified view of an object.
+
+34. **What is an abstract class?**
+    - An abstract class is a class that cannot be instantiated and may contain abstract methods.
+
+35. **How is an abstract class different from an interface?**
+    - An abstract class may have implemented methods, while an interface only contains method signatures.
+
+36. **What are access specifiers and what is their significance?**
+    - Access specifiers (public, private, protected) define the visibility and accessibility of class members.
+
+37. **What is an exception?**
+    - An exception is an unexpected event or error during program execution.
+
+38. **What is meant by exception handling?**
+    - Exception handling is the process of dealing with runtime errors to prevent program termination.
+
+39. **What is meant by Garbage Collection in OOPs world?**
+    - Garbage Collection is the automatic process of reclaiming memory occupied by unreferenced objects.
+
+40. **Can we run a Java application without implementing the OOPs concept?**
+    - Technically, yes, but it goes against the principles of Java, which is fundamentally an object-oriented language.
+
 1. **Define network**
    - **Network:** A collection of interconnected devices or systems sharing resources and information.
 
