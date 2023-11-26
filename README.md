@@ -119,7 +119,7 @@
     - Technically, yes, but it goes against the principles of Java, which is fundamentally an object-oriented language.
    
 41. **What is the SOLID principle in OOP?**
-   - SOLID promotes five design principles for robust and maintainable code.
+    - SOLID promotes five design principles for robust and maintainable code.
 
 42. **Difference between composition and inheritance?**
    - Composition creates relationships; inheritance builds on existing classes.
