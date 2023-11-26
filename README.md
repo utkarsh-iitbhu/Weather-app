@@ -1,3 +1,109 @@
+1. **Define network**
+   - **Network:** A collection of interconnected devices or systems sharing resources and information.
+
+2. **What do you mean by network topology, and explain types of them**
+   - **Network Topology:** The physical or logical layout of nodes and links in a network.
+   - **Types:** 
+      1. Bus Topology
+      2. Star Topology
+      3. Ring Topology
+      4. Mesh Topology
+      5. Tree Topology
+
+3. **Define bandwidth, node, and link?**
+   - **Bandwidth:** The maximum rate of data transfer across a network.
+   - **Node:** A device or point of connection in a network.
+   - **Link:** A communication pathway connecting nodes.
+
+4. **Explain TCP model ..**
+   - **TCP Model (Transmission Control Protocol):** A concise framework for the internet protocol suite.
+
+5. **Layers of OSI model**
+   - **OSI Model (Open Systems Interconnection):**
+      1. Physical
+      2. Data Link
+      3. Network
+      4. Transport
+      5. Session
+      6. Presentation
+      7. Application
+
+6. **Significance of Data Link Layer**
+   - Manages the physical transmission of data, error detection, and correction.
+
+7. **Define gateway, difference between gateway and router ..**
+   - **Gateway:** A device connecting different networks.
+   - **Difference:** A router connects networks at the network layer, while a gateway operates at higher levels.
+
+8. **What does ping command do?**
+   - **Ping Command:** Checks the reachability of a host on an internet protocol (IP) network.
+
+9. **What is DNS, DNS forwarder, NIC?**
+   - **DNS (Domain Name System):** Translates domain names to IP addresses.
+   - **DNS Forwarder:** A DNS server that forwards DNS queries to another DNS server.
+   - **NIC (Network Interface Card):** Hardware component enabling devices to connect to a network.
+
+10. **What is a MAC address?**
+    - **MAC Address (Media Access Control):** A unique identifier assigned to a network interface controller for communications at the data link layer.
+
+11. **What is an IP address, private IP address, public IP address, APIPA?**
+    - **IP Address:** A numerical label assigned to each device participating in a computer network.
+    - **Private IP Address:** Reserved for use within a private network.
+    - **Public IP Address:** Identifies a device on the public internet.
+    - **APIPA (Automatic Private IP Addressing):** Assigns a private IP address automatically when a DHCP server is unavailable.
+
+12. **Difference between IPv4 and IPv6**
+    - **IPv4:** 32-bit addressing, limited address space.
+    - **IPv6:** 128-bit addressing, larger address space.
+
+13. **What is a subnet?**
+    - **Subnet:** A logical subdivision of an IP network.
+
+14. **Firewalls**
+    - Security devices that monitor and control incoming and outgoing network traffic.
+
+15. **Different types of delays**
+    - **Propagation Delay:** Time taken for a signal to travel from the source to the destination.
+    - **Transmission Delay:** Time taken to push all the packet's bits into the link.
+    - **Queuing Delay:** Time spent waiting in a queue for transmission.
+    - **Processing Delay:** Time taken by the router to process the packet.
+    - **Round-Trip Time (RTT):** Time taken for a signal to travel from the source to the destination and back.
+
+16. **3-way handshaking**
+    - A process in TCP connection establishment involving three steps: SYN, SYN-ACK, ACK.
+
+17. **Server-side load balancer**
+    - Distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed.
+
+18. **RSA Algorithm**
+    - A widely used asymmetric encryption algorithm for securing data transmission.
+
+19. **What is HTTP and HTTPS protocol?**
+    - **HTTP (Hypertext Transfer Protocol):** Protocol for transmitting hypertext requests and responses.
+    - **HTTPS (Hypertext Transfer Protocol Secure):** Secure version of HTTP using encryption.
+
+20. **What is SMTP protocol?**
+    - **SMTP (Simple Mail Transfer Protocol):** Protocol for sending and receiving email.
+
+21. **TCP and UDP protocol, prepare differences**
+    - **TCP (Transmission Control Protocol):** Connection-oriented, reliable.
+    - **UDP (User Datagram Protocol):** Connectionless, unreliable.
+
+22. **What happens when you enter “google.com”? (very very famous question)**
+    - A series of DNS resolution, TCP connection, and HTTP request-response processes.
+
+23. **Hub vs Switch**
+    - **Hub:** Broadcasts data to all devices in a network.
+    - **Switch:** Forwards data only to the device that needs it.
+
+24. **VPN, advantages and disadvantages of it**
+    - **VPN (Virtual Private Network):** Securely connects a private network over the internet.
+    - **Advantages:** Security, Remote Access.
+    - **Disadvantages:** Slower Speeds, Setup Complexity.
+
+25. **LAN**
+    - **LAN (Local Area Network):** A network that connects computers and devices within a limited geographic area.
+
 1. **What is the main purpose of an operating system? Discuss different types?**
    - **Main Purpose:** Manage computer hardware and provide services to applications.
    - **Types:** Single-user, Multi-user, Multi-tasking, Multi-processing.
