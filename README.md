@@ -1,3 +1,234 @@
+
+1. **What is React?**
+   - React is a JavaScript library for building user interfaces.
+
+2. **Features of React?**
+   - Virtual DOM, JSX, Components, Unidirectional Data Flow.
+
+3. **Advantages of React?**
+   - Reusable components, efficient updates with Virtual DOM, strong community.
+
+4. **Limitations of React?**
+   - Steeper learning curve, integration challenges with some frameworks.
+
+5. **What is JSX?**
+   - JSX is a syntax extension for JavaScript, used with React to describe UI elements.
+
+6. **Why can't browsers read JSX?**
+   - Browsers can't interpret JSX directly; it needs compilation to JavaScript.
+
+7. **Why use JSX?**
+   - JSX provides a concise syntax to define UI components in React.
+
+8. **Virtual DOM?**
+   - Virtual DOM is a lightweight copy of the Real DOM for efficient updates.
+
+9. **Working of Virtual DOM?**
+   - Compares Virtual DOM with Real DOM and updates only the changed parts.
+
+10. **React vs Angular?**
+    - React is a library for UI components; Angular is a full-fledged MVC framework.
+
+11. **ES6 vs ES5 syntax in React?**
+    - ES6 introduces arrow functions, classes, and template literals, enhancing readability.
+
+12. **ReactJS vs React Native?**
+    - ReactJS for web development; React Native for mobile app development.
+
+13. **Real DOM vs Virtual DOM?**
+    - Real DOM updates entire structure; Virtual DOM updates only changed parts.
+
+14. **"In React, everything is a component."**
+    - Components are building blocks for UI, promoting modularity.
+
+15. **Purpose of render() in React?**
+    - `render()` displays the component UI on the screen.
+
+16. **Embedding two or more components?**
+    - Use them within parent components, creating a hierarchy.
+
+17. **What is Props?**
+    - Props are inputs passed to components, enabling dynamic content.
+
+18. **What is a State in React?**
+    - State holds data that can change during component execution.
+
+19. **States vs Props?**
+    - Props are external inputs; State is internal data managed within a component.
+
+20. **Updating State in React?**
+    - Use `setState()` method to update the state.
+
+21. **Stateless vs Stateful components?**
+    - Stateless components manage props; Stateful components manage state.
+
+22. **Arrow function in React?**
+    - Arrow functions provide concise syntax for defining functions.
+
+23. **What is an event in React?**
+    - Events in React are actions or occurrences detected during user interaction.
+
+24. **Creating an event in React?**
+    - Define event handlers using attributes like `onClick`.
+
+25. **Synthetic events in React?**
+    - Synthetic events are cross-browser wrappers for native events.
+
+26. **Controlled vs Uncontrolled components?**
+    - Controlled components manage state via React; Uncontrolled components use DOM.
+
+27. **Lists in React?**
+    - Use the `map()` function to render lists of data.
+
+28. **Significance of keys in React?**
+    - Keys help React identify which items have changed, added, or removed.
+
+29. **Forms in React?**
+    - Use controlled components to manage form data.
+
+30. **React component's lifecycle phases?**
+    - Mounting, Updating, Unmounting.
+
+31. **Lifecycle methods of React components?**
+    - `componentDidMount()`, `componentDidUpdate()`, `componentWillUnmount()`.
+
+32. **Pure Components?**
+    - Pure Components optimize rendering by avoiding unnecessary updates.
+
+33. **Higher Order Components (HOC)?**
+    - HOCs are functions that take a component and return a new one with enhanced features.
+
+34. **What can you do with HOC?**
+    - Reuse component logic, manipulate props, or abstract common functionality.
+
+35. **Element vs Component?**
+    - Element is a plain object; Component is a function or class.
+
+36. **Comments in React?**
+    - Use `{/* comment */}` for JSX comments.
+
+37. **Why start component names with a capital letter?**
+    - To differentiate components from HTML tags in JSX.
+
+38. **Fragments?**
+    - Fragments group multiple elements without adding extra nodes.
+
+39. **Why are fragments better than container divs?**
+    - Fragments don't create unnecessary divs in the DOM.
+
+40. **Validation on props in React?**
+    - Use PropTypes or TypeScript for prop validation.
+
+41. **create-react-app?**
+    - A tool to set up a new React project with a predefined structure.
+
+42. **Creating a component in React?**
+    - Define a function or class and export it.
+
+43. **Class vs Function component preference?**
+    - Use class components when state or lifecycle methods are needed.
+
+44. **Can browsers read JSX directly?**
+    - No, JSX needs transpilation to JavaScript.
+
+45. **What is the state in React?**
+    - State holds data that may change during component execution.
+
+46. **ES6 syntax changes in React?**
+    - Arrow functions, classes, and template literals for cleaner code.
+
+47. **Props in React?**
+    - Props are external inputs passed to components.
+
+48. **Refs in React?**
+    - Refs are used to access and interact with DOM elements directly.
+
+49. **Creating refs in React?**
+    - Use `React.createRef()` or callback refs.
+
+50. **Forward Refs?**
+    - Forward refs allow passing refs between components.
+
+51
+
+. **Callback refs vs findDOMNode()?**
+    - Callback refs are preferred for flexibility and compatibility.
+
+52. **Use of Refs?**
+    - Refs provide a way to access and interact with DOM elements directly.
+
+53. **What is React Router?**
+    - React Router is a library for adding navigation to React applications.
+
+54. **Need for a Router in React?**
+    - A router enables navigation between different views in a React application.
+
+55. **Advantages of React Router?**
+    - Declarative routing, nested route handling, and seamless navigation.
+
+56. **React Router vs Conventional Routing?**
+    - React Router enables dynamic updates without page reloads.
+
+57. **"Router may have only one child element" warning?**
+    - React Router requires a single parent element.
+
+58. **Switch keyword in React Router v4?**
+    - `Switch` renders the first child `Route` or `Redirect` that matches the location.
+
+59. **Using styles in React?**
+    - Inline styles, CSS modules, or styled components.
+
+60. **Ways to style React Component?**
+    - CSS, Inline styles, CSS-in-JS libraries.
+
+61. **CSS Module styling in React?**
+    - CSS Modules provide scoped styles for individual components.
+
+62. **Styled Components?**
+    - Styled Components are a library for styling React components with tagged template literals.
+
+63. **Hooks in React?**
+    - Hooks are functions that let you use state and lifecycle features in functional components.
+
+64. **Rules for hooks in React?**
+    - Use hooks at the top level, not inside loops or conditions.
+
+66. **Error boundary in React?**
+    - Error boundaries catch JavaScript errors anywhere in the component tree.
+
+67. **Cases where error boundaries don't catch errors?**
+    - In event handlers, async code, server-side rendering, and errors thrown in the error boundary itself.
+
+68. **Major problems with MVC framework?**
+    - Tight coupling, difficulty in managing state, and complex data flow.
+
+69. **Flux concept in React?**
+    - Flux is a design pattern for managing data flow in React applications.
+
+70. **Redux?**
+    - Redux is a state management library for JavaScript applications.
+
+71. **Three principles followed by Redux?**
+    - Single source of truth, state is read-only, changes made with pure functions.
+
+72. **Components of Redux?**
+    - Store, Actions, Reducers.
+
+73. **Role of Reducer in Redux?**
+    - Reducer specifies how the state changes in response to actions.
+
+74. **Significance of Store in Redux?**
+    - Store holds the state of the application.
+
+75. **Redux vs Flux?**
+    - Redux is a predictable state container with a single store; Flux allows multiple stores.
+
+76. **Advantages of Redux?**
+    - Centralized state management, predictable state changes.
+
+77. **Access Redux store outside a component?**
+    - Use `connect()` from the `react-redux` library.
+
 1. **What is meant by the term OOPs?**
    - Object-Oriented Programming (OOPs) is a programming paradigm that uses objects to structure code.
 
