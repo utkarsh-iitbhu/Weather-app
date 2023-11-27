@@ -1,3 +1,170 @@
+1. **NoSQL Databases and MongoDB:**
+   - NoSQL databases are non-relational databases, and yes, MongoDB is a NoSQL database.
+
+2. **Languages Supported by MongoDB:**
+   - MongoDB supports various languages, including JavaScript, Python, Java, C#, and more.
+
+3. **Types of NoSQL Databases:**
+   - Types include Document-oriented (MongoDB), Key-Value (Redis), Column-family (Cassandra), and Graph (Neo4j).
+
+4. **MongoDB vs Other SQL Databases:**
+   - MongoDB is preferred for its scalability, flexibility, and schema-less nature.
+
+5. **Type of DBMS in MongoDB:**
+   - MongoDB is a document-oriented NoSQL database.
+
+6. **Difference Between MongoDB and MySQL:**
+   - MongoDB is schema-less, while MySQL is a relational database with a fixed schema.
+
+7. **Why MongoDB is Known as the Best NoSQL Database:**
+   - MongoDB is known for its flexibility, scalability, and ease of use.
+
+8. **Primary-Key, Foreign-Key Relationship in MongoDB:**
+   - MongoDB does not support traditional primary-key, foreign-key relationships.
+
+9. **Achieving Primary Key-Foreign Key Relationships in MongoDB:**
+   - Relationships are typically managed programmatically in the application logic.
+
+10. **RAM Requirements for MongoDB:**
+    - MongoDB benefits from having sufficient RAM for efficient data access.
+
+11. **Structure of ObjectID in MongoDB:**
+    - ObjectID is a 12-byte identifier consisting of a timestamp, machine ID, process ID, and a random incrementing value.
+
+12. **MongoDB and BSON:**
+    - Yes, MongoDB uses BSON (Binary JSON) to represent document structure.
+
+13. **Indexes in MongoDB:**
+    - Indexes improve query performance by allowing the database to locate and retrieve data more quickly.
+
+14. **Default Index in MongoDB Collections:**
+    - MongoDB creates a default index on the `_id` field for every collection.
+
+15. **Namespace in MongoDB:**
+    - A namespace in MongoDB refers to a combination of the database name and collection name.
+
+16. **Journaling Features for Safe Hot Backups:**
+    - Journaling helps with crash recovery but is not a substitute for proper backup procedures.
+
+17. **Profiler Use in MongoDB:**
+    - The profiler is used to profile the performance of database operations.
+
+18. **Removing an Object Attribute in MongoDB:**
+    - If an object attribute is removed, it is deleted from the database.
+
+19. **Language MongoDB is Written In:**
+    - MongoDB is primarily written in C++.
+
+20. **RAM Usage in MongoDB:**
+    - MongoDB's RAM usage depends on the size of the working set and data access patterns.
+
+21. **Languages Compatible with MongoDB:**
+    - MongoDB is compatible with various programming languages, including JavaScript, Python, Java, and more.
+
+22. **Tables in MongoDB:**
+    - MongoDB uses collections to store records; it does not have tables.
+
+23. **Schema in MongoDB Databases:**
+    - MongoDB databases are schema-less, allowing flexibility in document structures.
+
+24. **Configuring Cache Size in MongoDB:**
+    - Cache size in MongoDB can be configured using the `wiredTigerCacheSizeGB` option.
+
+25. **Transaction/Locking in MongoDB:**
+    - MongoDB supports multi-document transactions and provides various isolation levels.
+
+26. **32-Bit Version of MongoDB:**
+    - The 32-bit version is not preferred for production due to limited addressable memory.
+
+27. **Removing Old Files in moveChunk Directory:**
+    - Old files in the moveChunk directory can be removed manually.
+
+28. **Querying When a Shard is Down or Slow:**
+    - Queries can still be directed to available shards, but performance may be impacted.
+
+29. **Covered Query in MongoDB:**
+    - A covered query is one where all the fields in the query are covered by the index.
+
+30. **Importance of Covered Query:**
+    - Covered queries can be more efficient as they avoid fetching the actual documents.
+
+31. **Sharding in MongoDB:**
+    - Sharding is the process of distributing data across multiple machines to improve scalability.
+
+32. **Replica Set in MongoDB:**
+    - A replica set is a group of MongoDB servers that maintain the same data set.
+
+33. **Primary and Secondary Replica Set:**
+    - Primary handles writes, and secondaries replicate data from the primary.
+
+34. **Default Replica Sets for Writing Data:**
+    - By default, primary replica sets are used to write data.
+
+35. **CRUD in MongoDB:**
+    - CRUD stands for Create, Read, Update, and Delete, representing basic database operations.
+
+36. **Document Structure Format in MongoDB:**
+    - MongoDB represents document structure in BSON format.
+
+37. **Removing a Document in MongoDB:**
+    - Removing a document deletes it from the collection.
+
+38. **MongoDB Data File Size:**
+    - Data file size can be large due to the nature of storing BSON documents.
+
+39. **Storage Engine in MongoDB:**
+    - MongoDB supports different storage engines; WiredTiger is commonly used.
+
+40. **Storage Engines Used by MongoDB:**
+    - WiredTiger and MMAPv1 are two storage engines used by MongoDB.
+
+41. **Profiler Usage in MongoDB:**
+    - Profiler helps in analyzing the performance of queries and operations.
+
+42. **Configuring Cache Size for MMAPv1:**
+    - Cache size for MMAPv1 can be configured using the `storage.mmapv1.smallFiles` option.
+
+43. **Configuring Cache Size for WiredTiger:**
+    - Cache size for WiredTiger can be configured using
+
+ the `wiredTigerCacheSizeGB` option.
+
+44. **Concurrency in MongoDB:**
+    - MongoDB achieves concurrency through its support for multiple readers and a single writer.
+
+45. **Difference Between MongoDB and Redis:**
+    - MongoDB is a document-oriented database, while Redis is an in-memory key-value store.
+
+46. **Difference Between MongoDB and CouchDB:**
+    - MongoDB uses a flexible, JSON-like document model, while CouchDB uses a schema-free JSON format.
+
+47. **Difference Between MongoDB and Cassandra:**
+    - MongoDB is a document-oriented database, while Cassandra is a wide-column store.
+
+48. **Need to Create Database Command in MongoDB:**
+    - MongoDB creates a database when data is inserted, so there's no explicit "create database" command.
+
+49. **Advantages of WiredTiger Over MMAPv1:**
+    - WiredTiger offers better performance, compression, and support for document-level concurrency.
+
+50. **MongoDB Backup Methods:**
+    - Options include mongodump for a logical backup and filesystem snapshots for a point-in-time backup.
+
+51. **Role of Journaling in MongoDB:**
+    - Journaling provides durability by recording write operations before applying them.
+
+52. **Importance of Covered Query:**
+    - Covered queries can be more efficient as they avoid fetching the actual documents.
+
+53. **Use of `$exists` Operator in MongoDB:**
+    - `$exists` is used to query documents based on the existence of a field.
+
+54. **Retrieving Only Specific Fields:**
+    - The `find` method can be used with the projection parameter to retrieve specific fields.
+
+55. **Comparison Between WiredTiger and MMAPv1:**
+    - WiredTiger is the default storage engine, offering better performance, compression, and concurrency.
+
 1. **What is Node.js?**
    - Node.js is a server-side JavaScript runtime built on Chrome's V8 JavaScript engine.
 
