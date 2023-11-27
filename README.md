@@ -1,3 +1,57 @@
+1. **Express.js:**
+   - Express.js is a web application framework for Node.js, designed for building robust and scalable web applications.
+
+2. **Distinctive Features of Express:**
+   - Middleware support, routing, templating, HTTP utility methods make Express distinctive.
+
+3. **Express.js - Frontend or Backend:**
+   - Express.js is a backend framework used for building server-side applications.
+
+4. **Why Use Express.js:**
+   - Express simplifies Node.js application development with its features and middleware.
+
+5. **Express.js vs. Node.js:**
+   - Node.js is the runtime, while Express.js is a framework that runs on Node.js.
+
+6. **Express Code Structure:**
+   - Express code involves creating an app, defining routes, and handling HTTP requests.
+
+7. **Scaffolding in Express.js:**
+   - Scaffolding is the automatic generation of a basic directory structure for a new Express.js application.
+
+8. **Scaffolding in Other MVC Frameworks:**
+   - Yes, many MVC frameworks, including Ruby on Rails and Laravel, support scaffolding.
+
+9. **Arguments to an Express Route Handler:**
+    - Route handler functions in Express accept request (`req`) and response (`res`) objects.
+
+10. **Express vs. Django:**
+    - Express is for Node.js, focusing on flexibility, while Django is a Python framework known for its "Django way" and built-in features.
+
+11. **Enable Debugging in Express.js:**
+    - Set the `DEBUG` environment variable to `express:*` before starting the app.
+
+12. **Allow CORS in Express.js:**
+    - Use the `cors` middleware: `npm install cors` and `app.use(cors())`.
+
+13. **Error Handling in Express.js:**
+    - Use middleware with four parameters (err, req, res, next), and handle errors accordingly.
+    - app.use((err, req, res, next)
+      
+14. **Serve Static Files in Express.js:**
+    - Use `express.static` middleware:
+    - app.use(express.static('public'));
+    
+15. **Middleware in Express.js:**
+    - Middleware are functions that have access to the request, response, and the next middleware function. Types include application-level, router-level, and error-handling middleware.
+
+16. **Template Engines Supported by Express:**
+    - Express supports various template engines like EJS, Pug, Handlebars, and more.
+
+17. **Render Plain HTML in Express.js:**
+    - Use `res.sendFile` to send a file:
+    
+
 1. **NoSQL Databases and MongoDB:**
    - NoSQL databases are non-relational databases, and yes, MongoDB is a NoSQL database.
 
