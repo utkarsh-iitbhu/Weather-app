@@ -1,3 +1,166 @@
+1. **What is Node.js?**
+   - Node.js is a server-side JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+2. **Is Node.js free to use?**
+   - Yes, Node.js is open-source and free to use.
+
+3. **Is Node a single-threaded application?**
+   - Yes, Node.js operates on a single-threaded event loop.
+
+4. **Purpose of Node.js?**
+   - Node.js is designed for building scalable network applications.
+
+5. **Advantages of Node.js?**
+   - Non-blocking I/O, high performance, vast ecosystem of packages.
+
+6. **Node.js web application architecture?**
+   - Follows a single-threaded event-driven model.
+
+7. **What is I/O in Node.js?**
+   - I/O stands for Input/Output, representing interactions with external entities.
+
+8. **Types of API functions in Node.js?**
+   - Two types: Asynchronous (non-blocking) and Synchronous (blocking).
+
+9. **First-class function in JavaScript?**
+   - Functions treated as first-class citizens, allowing them to be passed as arguments.
+
+10. **Difference between JavaScript and Node.js?**
+    - JavaScript is a language; Node.js is a runtime environment for executing JavaScript on the server side.
+
+11. **Working of Node.js?**
+    - Uses an event-driven, non-blocking I/O model for efficient, scalable server-side applications.
+
+12. **Managing packages in Node.js project?**
+    - Use npm (Node Package Manager) to install, update, and manage project dependencies.
+
+13. **Why is Node.js Single-threaded?**
+    - Optimized for handling asynchronous operations efficiently.
+
+14. **Callback hell in Node.js?**
+    - A situation where callbacks are nested, leading to unreadable and error-prone code.
+
+15. **How is Node.js better than other frameworks?**
+    - Non-blocking I/O, scalability, and a large ecosystem make it stand out.
+
+16. **Applications where Node.js is frequently used?**
+    - Real-time applications, streaming services, chat applications.
+
+17. **Commonly used timing features in Node.js?**
+    - `setTimeout()`, `setInterval()`, `process.nextTick()`.
+
+18. **What is "fork" in Node.js?**
+    - Creating child processes using the `fork()` method.
+
+19. **Tool for consistent code style in Node.js?**
+    - Use ESLint for enforcing coding standards.
+
+20. **Difference between front-end and back-end development?**
+    - Front-end involves client-side development; back-end manages server-side logic.
+
+21. **Example of using async await in Node.js?**
+    - Async functions make asynchronous code more readable.
+
+22. **Modules in Node.js? Different modules used?**
+    - Modules are reusable code units; common ones include fs, http, and path.
+
+23. **Buffers in Node.js?**
+    - Buffers represent binary data; used to work with binary streams.
+
+24. **Error-first callback?**
+    - Callbacks in Node.js follow a convention where the first parameter is reserved for an error.
+
+25. **Asynchronous API?**
+    - APIs that allow non-blocking, parallel execution of multiple operations.
+
+26. **Avoiding callbacks?**
+    - Use Promises, async/await for better readability and error handling.
+
+27. **Node.js Debugger?**
+    - Yes, Node.js provides a built-in debugger.
+
+28. **Control flow function?**
+    - Functions that manage the flow of execution, like callbacks and Promises.
+
+29. **How "Control Flow" controls function calls?**
+    - Manages the order in which functions are called, ensuring proper execution.
+
+30. **Access DOM in Node.js?**
+    - No, Node.js does not provide access to the Document Object Model (DOM).
+
+31. **Tasks done asynchronously using the event loop?**
+    - File I/O, network requests, database operations.
+
+32. **What is REPL in Node.js?**
+    - REPL stands for Read-Eval-Print Loop; it's a command-line tool for interacting with Node.js.
+
+33. **Tasks of terms used in Node REPL?**
+    - Read: Reads user's input, Eval: Evaluates input, Print: Outputs result, Loop: Repeats process.
+
+34. **Evaluating simple expressions using Node REPL?**
+    - Yes, enter expressions directly, and it evaluates and prints the result.
+
+35. **Use of underscore variable in REPL?**
+    - It holds the result of the last expression.
+
+36. **Node.js supports cryptography?**
+    - Yes, it has a built-in crypto module for cryptographic functionality.
+
+37. **npm and its main functionality?**
+    - npm is the package manager for Node.js; it helps install and manage project dependencies.
+
+38. **Tools for consistent style in Node.js?**
+    - ESLint and Prettier are commonly used for code styling.
+
+39. **Difference between operational and programmer errors?**
+    - Operational errors are runtime issues; programmer
+
+ errors are logical mistakes in the code.
+
+40. **Global vs. local installation of dependencies?**
+    - Global installations are accessible across the system, while local installations are specific to a project.
+
+41. **Use of buffer class in Node.js?**
+    - Buffers are used to handle binary data efficiently.
+
+42. **Role of assert in Node.js?**
+    - The assert module provides a way to assert values.
+
+43. **Streams in Node.js?**
+    - Streams provide a way to handle reading/writing data in chunks.
+
+44. **Event-driven programming in Node.js?**
+    - Programs respond to events triggered by user actions or system events.
+
+45. **Difference between events and callbacks in Node.js?**
+    - Events are a broader concept, while callbacks are functions called in response to events.
+
+46. **Punycode in Node.js?**
+    - Punycode is a method for encoding Unicode characters in ASCII.
+
+47. **Node.js TTY module contains?**
+    - The TTY module contains functions for interacting with terminal devices.
+
+48. **Key differences between Angular and Node.js?**
+    - Angular is a front-end framework; Node.js is a server-side runtime.
+
+49. **Differences between operational and programmer errors?**
+    - Operational errors are runtime issues; programmer errors are logical mistakes in the code.
+
+50. **EventEmitter in Node.js?**
+    - EventEmitter is a class that helps implement the observer pattern for handling events.
+
+51. **Difference between readFile and createReadStream?**
+    - `readFile` reads the entire file at once; `createReadStream` reads in chunks for large files.
+
+52. **Concept of Punycode in Node.js?**
+    - Punycode is a way to represent Unicode characters in ASCII for domain names.
+
+53. **Enhancing Node.js performance through clustering?**
+    - Clustering allows running multiple Node.js processes to utilize multiple CPU cores.
+
+54. **Thread pool in Node.js? Library handling it?**
+    - Node.js uses a thread pool for certain operations; it is handled internally.
 
 1. **What is React?**
    - React is a JavaScript library for building user interfaces.
