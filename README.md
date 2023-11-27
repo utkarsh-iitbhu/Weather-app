@@ -106,7 +106,7 @@
 36. **Node.js supports cryptography?**
     - Yes, it has a built-in crypto module for cryptographic functionality.
 
-37. **npm and its main functionality?**
+37. **npm and its main functionality?** 
     - npm is the package manager for Node.js; it helps install and manage project dependencies.
 
 38. **Tools for consistent style in Node.js?**
