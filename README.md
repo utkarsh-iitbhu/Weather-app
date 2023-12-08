@@ -1,3 +1,61 @@
+**Profile Summary:**
+
+I am a highly skilled and accomplished professional with expertise in Data Science, Machine Learning, and Full-Stack Development. My technical proficiencies include a wide range of hard skills, such as Data Structures and Algorithms (DSA), Deep Learning (DL), Transformers/LLM's, OpenCV, Time Series, and the MERN Stack. I am well-versed in tools like Jupyter Notebook, VS Code, Github, Tableau, and possess proficiency in languages including C, C++, Python, SQL, JavaScript, and Matlab.
+
+### **Professional Achievements:**
+
+**Data Scientist at Publicis Sapients (May 2023 - July 2023):**
+- Developed clustering and mathematical models for optimizing facility locations in warehouse management.
+- Optimized objective functions, solved inventory and route optimization problems for the delivery chain.
+- Deployed code using Docker and managed deployment on an AWS Kubernetes cluster.
+
+**Deep Learning Engineer at TMLC (Dec 2022 - Feb 2023):**
+- Worked on detecting YOLO models (yolov5-v7-v8) and implemented Feature Pyramid Network (FPN).
+- Detected birds in a cage, calculated in-time, out-time, and created dashboards and reports on Streamlit.
+- Deployed models on an AWS EC2 instance for real-time metrics calculation.
+
+**Machine Learning Engineer at Univ.AI (Oct 2021 - Dec 2021):**
+- Scrapped data using Octoparse, generating a phone sales dataset with a MAPE score of 0.029.
+- Implemented Statistical, Time Series LSTM model, ARIMA, and XGBoost model for future phone sales data.
+- Organized and administered a successful ML hackathon.
+
+### **Projects:**
+
+1. **Memor.AI Ed-Tech Platform (Jan 2023 - March 2023):**
+   - Built an Ed-Tech platform using Flutter, Django, and Transformers.
+   - Developed spaced repetition, BERT-based generator, summarizer, and QnA model as features.
+   - Deployed Django backend on Heroku and created a Deck of our solution.
+
+2. **Blogify360 - Scripting Ideas with MERN (March 2023 - May 2023):**
+   - Utilized React Router, Redux, and Node to develop a full-stack blog application.
+   - Implemented user authentication, file uploads, and bcrypt O2Auth authentication.
+
+3. **Synthetic Serendipity - Enigmatic Anime VAE-GAN (Sept 2022 - Oct 2022):**
+   - Leveraged Variational Autoencoder and GANS to generate unique anime-style character faces.
+   - Trained on a diverse dataset of anime images using PyTorch and deployed using FastAPI.
+
+### **Position of Responsibility:**
+
+**Technical Events Head, COPS(IG) - 2023 (June 2022 - June 2023):**
+- Led Events heads for COPS(IG), mentoring freshers on their ML journey.
+- Conducted various hackathons, workshops, and events for freshers.
+
+**Moderator, Cntrl Shift Intelligence - 2022 (April 2022):**
+- Organized and served as a mentor for a dynamic 3-day hackathon hosted on Kaggle.
+
+### **Honours and Achievements:**
+
+- Developed an Auto Code Generator using GPT_3 Neo, demonstrating its working.
+- Imparted a 2.5-hour live Python tutorial with over 3000+ views on YouTube.
+- Research Paper Implementation on Missing Data Sequence using deep imputation models.
+
+### **Extra-Curricular Activities:**
+
+- Solved 400+ questions on the Interview Bit platform and over 1500+ questions on various coding platforms.
+- Verbal Mention in the All India Political Party Meet (AIPPM) committee at IIT BHU MUN.
+
+My profile reflects a strong combination of technical expertise, leadership, and a proven track record of successful project implementations. I am eager to bring my skills and experience to a dynamic and challenging professional environment.
+
 1. **Express.js:**
    - Express.js is a web application framework for Node.js, designed for building robust and scalable web applications.
 
